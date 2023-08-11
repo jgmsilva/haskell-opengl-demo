@@ -1,0 +1,16 @@
+
+* OpenGL Demo in Haskell
+
+** Building and Running
+
+*** Nix
+#+begin_src bash
+nix run github:jgmsilva/haskell-opengl-demo
+#+end_src
+
+*** Cabal
+clone the repository and run with cabal
+#+begin_src bash
+git clone https://github.com/jgmsilva/haskell-opengl-demo.git && cd haskell-opengl-demo
+cabal run
+#+end_src
